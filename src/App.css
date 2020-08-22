@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Koyon';
+  src: url('./fonts/Koyon.woff2') format('woff2'),
+       url('./fonts/Koyon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Koyon';
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  line-height: 50px;
+}
+
+#wrapper-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper-404 > img {
+  height: 100%;
+}

@@ -1,0 +1,16 @@
+#wrapper-about {
+    padding: 100px 50px 200px;
+}
+
+h4 > span {
+    color: #c99035;
+}
+
+#wrapper-about > div > img {
+    max-width: calc(100% / 3);
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+}

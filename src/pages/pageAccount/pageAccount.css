@@ -1,0 +1,29 @@
+.wrapper-account {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.wrapper-account > input {
+    padding: 5px 20px;
+    background-color: #c99035ce;
+}
+
+.wrapper-account > h1 {
+    color: #c99035;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+td > img {
+    max-width: 300px;
+}

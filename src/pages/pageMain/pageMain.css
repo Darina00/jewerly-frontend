@@ -1,0 +1,88 @@
+#section-about {
+    background-image: url(../../media//bg.jpg);
+    height: 100vh;
+    
+}
+
+.item-on-bg {
+    opacity: 111;
+    z-index: 111111;
+    background: rgba(243, 239, 229, 0.685);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#item-right {
+    max-width: 500px;
+}
+
+#top-section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#top-section > div {
+    padding-left: 20px;
+}
+
+.box-item {
+    width: calc(100vw / 3);
+}
+
+#bottom-section {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box-shop {
+    background-image: url(../../media//shop.jpg);
+    width: 70%;
+}
+
+#top > img {
+    height: 50vh;
+}
+
+#bottom {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#bottom > img {
+    width: 25%;
+}
+
+#col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#items-left > a, .box-item > a, #box-shop > a {
+    text-decoration: none;
+    color: #c99035;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+#items-left > a:hover {
+    text-decoration: none;
+    color: rgb(43, 43, 39);
+}
+
+.box-item > a:hover {
+    text-decoration: none;
+    color: rgb(43, 43, 39);
+}
+
+#box-shop > a:hover {
+    text-decoration: none;
+    color: rgb(43, 43, 39);
+}

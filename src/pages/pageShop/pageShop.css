@@ -1,0 +1,80 @@
+#main-shop {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+#main-bg {
+    background-image: url(../../media/shoppp.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-color: #fff;
+} 
+
+#main-bg > div {
+    background: rgba(243, 239, 229, 0.37);
+    width: 98.9vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-bg > div > h1 {
+    color: rgb(53, 53, 45);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#nav-shop {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#nav-shop > li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-shop > li > a {
+    text-decoration: none;
+    color: rgb(53, 53, 45);
+    transition: all 0.4s ease-in-out;
+}
+
+#nav-shop > li:hover > a {
+    color: #c99035;
+}
+
+.wrapper-goods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boxGood {
+    max-width: calc(100vw / 3);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+}
+
+.boxGood > a> img {
+    width: 100%;
+}
+
+.wrapper-goods {
+    margin-bottom: 100px;
+}
+
+.boxGood:hover {
+    opacity: 0.3;
+}
+
+#wrapper-loader {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}

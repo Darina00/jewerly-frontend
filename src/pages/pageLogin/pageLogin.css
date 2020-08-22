@@ -1,0 +1,48 @@
+#img-log {
+    width: 100%;
+}
+
+#wrapper-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.inputs {
+    width: 60vw;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #c99035;
+}
+
+.inputs:focus {
+    background-color: #c99035;
+}
+
+#wrapper-login > button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #c99035;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 100px;
+}
+
+#wrapper-login > button:hover {
+    background-color: black;
+    color: #c99035;
+}
+
+#wrapper-login > h4 > a {
+    color: #c99035;
+}
+
+#wrapper-loader {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

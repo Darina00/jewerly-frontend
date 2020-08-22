@@ -1,0 +1,35 @@
+.wrapper-footer {
+    display: flex;;
+    justify-content: space-around;
+    background-color: rgba(85, 85, 85, 0.479);
+    color: #2e1f08;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mini-gallery {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+#mini-gallery > img {
+    width: 100px;
+}
+
+#contacts > ul > li {
+    list-style: none;
+}
+
+#contacts > ul > li > a {
+    text-decoration: none;
+    color: #2e1f08;
+    transition: all 0.5s ease-in-out;
+}
+
+#contacts > ul > li > a:hover {
+    color: #c99035;
+}

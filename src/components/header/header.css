@@ -1,0 +1,43 @@
+#logo {
+    margin-right: 100px;
+}
+
+.item-header {
+    color: rgb(53, 53, 45);
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+}
+
+.item-header:hover {
+    color:  #c99035;
+}
+
+.item-dropdown {
+    color:  #c99035;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.item-dropdown:hover {
+    color: rgb(53, 53, 45);
+}
+
+.menu-down {
+    display: flex;
+    flex-direction: row;
+}
+
+#sale-photo {
+    width: 80%;
+}
+
+#sale-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logOut {
+    background: none;
+    border: none;
+}

@@ -1,0 +1,51 @@
+.wrapper-basket > table > tr > td > img {
+    max-width: 200px;
+}
+
+.wrapper-basket > table > tr > td {
+    padding: 5px 20px;
+}
+
+.wrapper-basket {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrapper-order {
+    padding-top: 100px;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clear {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#clear:hover {
+    color: #c99035;
+}
+
+#ordered {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #c99035;
+    color: rgb(53, 53, 45);
+    border-radius: 100px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+#ordered:hover {
+    background-color: rgb(53, 53, 45);
+    color: #c99035;
+}
